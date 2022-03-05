@@ -27,5 +27,19 @@
 }
 
 body {
-    font-family: 'Gilory', sans-serif;
+  font-family: 'Gilory', sans-serif;
+}
+
+.fill-animation {
+  animation: fill 3s ease infinite;
+}
+
+
+@keyframes fill {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 66%;
+  }
 }
