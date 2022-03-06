@@ -43,3 +43,50 @@ body {
     width: 66%;
   }
 }
+
+@media screen and (max-width: 1400px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mr-four {
+    margin-right: 1rem;
+  }
+
+  .mb-two {
+    margin-bottom: 0.5rem;
+  }
+
+  .px-eight {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .px-twelve {
+    padding: 0 3rem;
+  }
+
+  .mr-four {
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 830px) {
+  .px-six {
+    padding: 0 1.5rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .px-six-1 {
+    padding: 0 1.5rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .px-four {
+    padding: 0 1rem;
+  }
+}
