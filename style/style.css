@@ -79,11 +79,11 @@ body {
   }
 }
 
-@media screen and (max-width: 430px) {
+/* @media screen and (max-width: 430px) {
   .px-six-1 {
     padding: 0 1.5rem;
   }
-}
+} */
 
 @media screen and (max-width: 390px) {
   .px-four {
